@@ -1,18 +1,29 @@
-## Getting Started
+ # Mini Hospital Emergency Management System
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Description
 
-## Folder Structure
+A Java console application for managing hospital patients, emergency treatment,
+completed treatments, and patient visit history.
 
-The workspace contains two folders by default, where:
+## Data Structures
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Binary Search Tree: stores patients using Patient ID
+- Queue: manages emergency patients using FIFO
+- Stack: stores completed treatments using LIFO
+- Singly Linked List: stores patient visit history
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Features
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- Register, search, delete, and display patients
+- Add and treat emergency patients
+- Add and remove treatment records
+- Add, search, remove, and display visits
 
-## Dependency Management
+## How to Run
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Run the main Java file from Visual Studio Code.
+
+## Author
+
+M.F.F Aaysha  
+23da2-0834
